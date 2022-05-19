@@ -25,6 +25,15 @@
 			</ul>
 		</nav>
 		<div class='clearfix'/>
+			<h1>2022-05-19 Microsoft breaks everyone's builds</h1>
+		<p>Today, <a href="https://devblogs.microsoft.com/devops/updates-to-azure-pipelines-runtime-variables-settings/">Microsoft decided to break everyone's build</a>.
+		So, for example, if you set the checkbox "Enable System Diagnostics", it will fail unless you have system.Debug and agent.diagnostic both in the Variables tab of your build definition, and have allowed them to be settable at queue time:
+		<img src="checkbox-.png">
+			<br />
+		<img src="two-vars.PNG">
+		</p>
+		</div>
+		<div class='clearfix'/>
 			<h1>Chess feed</h1>
 			<iframe src="https://lichess.org/tv/frame?theme=brown&bg=dark" style="width: 400px; height: 444px;" allowtransparency="true" frameborder="1"></iframe>
 			<h1>Daily Puzzle</h1>
