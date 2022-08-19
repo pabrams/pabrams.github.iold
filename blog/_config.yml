@@ -3,17 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+title: Paul Abrams Blog
+subtitle: 'Well, I try to be just like I am'
+description: 'Inanity'
+keywords: 'Profundity', 'Pontification', 'Prodigious', 'Prodigal', 'Meaning', 'Life', 'Death', 'Fast Cars', 'Loose Women', 'Stupid People', 'Hanlons Razor', 'Occams Razor', 'Keep it Simple', 'The Golden Rule'
+author: Paul Abrams
 language: en
-timezone: ''
+timezone: 'EST'
 
 # URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+# Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: https://www.paulabrams.online/blog
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -21,17 +22,17 @@ pretty_urls:
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
-source_dir: source
-public_dir: public
+source_dir: src
+public_dir: pub
 tag_dir: tags
-archive_dir: archives
-category_dir: categories
+archive_dir: arc
+category_dir: cat
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :year-:month-:day-:title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
